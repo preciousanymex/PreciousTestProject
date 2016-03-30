@@ -50,6 +50,11 @@ post : http://anymex.meteor.com/api/v1/user/login/{service}
 	"locale": "en_US"
 }
 ```
+Schema
+{
+	accessToken (string, optional),
+	accessToken (string, optional)
+}```
 
 #### Twitter
 
@@ -333,7 +338,7 @@ Post : http://anymex.meteor.com/api/v1/request/query
 
 User authentication required
 
-```status``` can be one of the following: ```open```, ```expired```, ```confirmed```, ```completed```. 
+```status``` can be one of the following: ```open```, ```expired```, ```confirmed```, ```completed```.
 
 ``` json
 {
