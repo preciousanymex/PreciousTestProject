@@ -36,6 +36,7 @@ post : http://anymex.meteor.com/api/v1/user/login/{service}
 
 #### Facebook
 
+Example
 ``` json
 {
 	"accessToken": "3weTEayB6GdaK9W74XptRwDYsRmZxxExQuFKFvqsXRhgBTcErcuqe9XLvM2h93TVwtJfTPSuexGzZyc8ff9W5q25qYDE9CdXSwh9s54RJRsXXRDgraAmBfQrZaVpzzZH",
@@ -49,13 +50,15 @@ post : http://anymex.meteor.com/api/v1/user/login/{service}
 	"gender": "male",
 	"locale": "en_US"
 }
+
 ```
 Schema
+```
 {
 	accessToken (string, optional),
 	accessToken (string, optional)
 }```
-
+```
 #### Twitter
 
 We need the following fields from "twitter" => "api".
